@@ -1,4 +1,4 @@
-name: fashionapp
+name: FashionLandingPage
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use fashionapp ${{ matrix.node-version }}
+    - name: Use FashionLandingPage ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
