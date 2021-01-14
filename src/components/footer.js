@@ -3,7 +3,7 @@ import footericons from '../assets/footericons.png'
 const Footer = () => {
   return (
     <div className='flex flex-col-reverse justify-around bg-gray-200 md:flex-row md:px-16 md:justify-between lg:px-32'>
-      <div className='my-32 md:w-1/2'>
+      <div className='my-16 md:my-32 mx-6 md:mx-0 md:w-1/2'>
         <h1 className='font-Poppins text-xl font-bold'>YOUR LOGO</h1>
         <br />
         <p className='font-Poppins text-xs break-words'>
@@ -17,7 +17,7 @@ const Footer = () => {
         <br />
         <img src={footericons} alt='' className='w-1/4 h-1/4'/>
       </div> 
-      <div className='my-32 w-2/5'>
+      <div className='my-16 md:my-32 mx-6 md:mx-0 md:w-2/5'>
         <h1 className='font-Poppins text-xl font-bold'>RECEIVE EMAIL UPDATES</h1>
         <br />
         <div className='flex'>
@@ -35,16 +35,19 @@ const Footer = () => {
             <br />
             <h1 className='font-Poppins text-xs'>Lookbook</h1>
           </div>
-          <div className=''>
-            <h1 className='font-Poppins text-sm font-medium'>HELP</h1>
+          <div
+            // className='ml-4 md:ml-0'
+            className='flex md:block flex-col items-center'
+          >
+            <h1 className='font-Poppins text-sm font-medium text-center lg:text-left'>HELP</h1>
             <br />
-            <h1 className='font-Poppins text-xs'>FAQ</h1>
+            <h1 className='font-Poppins text-xs text-center lg:text-left'>FAQ</h1>
             <br />
-            <h1 className='font-Poppins text-xs'>Privacy policy</h1>
+            <h1 className='font-Poppins text-xs text-center lg:text-left'>Privacy policy</h1>
             <br />
-            <h1 className='font-Poppins text-xs'>Terms and Conditions</h1>
+            <h1 className='font-Poppins text-xs text-center lg:text-left'>Terms and Conditions</h1>
             <br />
-            <h1 className='font-Poppins text-xs'>Return and Exchanges</h1>
+            <h1 className='font-Poppins text-xs text-center lg:text-left'>Return and Exchanges</h1>
           </div>
           <div className=''>
             <h1 className='font-Poppins text-sm font-medium'>ABOUT</h1>
