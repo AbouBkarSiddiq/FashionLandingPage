@@ -11,13 +11,13 @@ function App() {
   return (
     <div>
       <Navigation />
-      {/* <HomePage />
+      <HomePage />
       <Women />
       <Men />
       <Avon />
       <Tachen />
       <Footer />
-      <Copywrite /> */}
+      <Copywrite />
     </div>
   );
 }
